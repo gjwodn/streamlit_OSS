@@ -1,6 +1,7 @@
 import streamlit as st
 
-OSS_score = [80, 70, 55 ,30, 3, 3, 1, 0]
-OSS_score
+x = st.slider('컴퓨터소프트웨어학부 허재우')
 
-st.bar_chart(OSS_score)
+OSS_score = [80,75,80,91,70,85]
+
+st.line_chart(OSS_score)
